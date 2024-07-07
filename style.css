@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    color: rgb(255, 214, 231);
+    font-size: 50px;
+  }
+  
+  .height {
+    height: 10vh;
+    width: 50vw;
+    font-size: 30px;
+    margin: 27px 255px;
+  }
+  
+  .height input {
+    height: 42px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+  }
+  
+  .weight {
+    height: 10vh;
+    width: 50vw;
+    font-size: 30px;
+    margin: 0px 255px;
+  }
+  
+  .weight input {
+    height: 42px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+  }
+  
+  .calcul button {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 15px 370px;
+    margin-bottom: 0;
+    border: none;
+    background-color: rgb(93, 201, 93);
+    font-size: 25px;
+  }
+  
+  #results {
+    margin: 40px 411px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  
+  .calcul button:hover {
+    background-color: rgb(173, 215, 173);
+    cursor: pointer;
+    font-size: 28px;
+  }
+  
+  .box {
+    height: 30vh;
+    margin: 5px 235px;
+    width: 50vw;
+    padding: 10px 108px;
+  }
+  
+  .guide {
+    font-size: 18px;
+  }
+  
+  .guide div {
+    margin-bottom: 20px;
+  }
+  
+  .guide div:last-child {
+    margin-bottom: 0;
+  }
+  
